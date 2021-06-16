@@ -1,0 +1,33 @@
+The Blinky project is a simple CMSIS RTOS2 based example
+for the NXP 'LPC1768' microcontroller using Keil 'MCB1700'
+Evaluation Board.Compliant to Cortex Microcontroller
+Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL  =  12 MHz
+   - PLL0  = 400 MHz
+   - CCLK  = 100 MHz
+
+ - LED PD_10  is blinking as running light with fixed speed 500 ms
+ - BUTTON P4_0 is used for stop/start blinking LED
+
+The Blinky program is available in different targets:
+
+ - Debug:
+   - Compiler:                  ARM Compiler optimization Level 1
+   - Compiler:Event Recorder:   Enabled
+   - CMSIS:RTOS2:Keil RTX5:     Source
+
+ - Release:
+   - Compiler:                  ARM Compiler optimization Level 3
+   - Compiler:Event Recorder:   Disabled
+   - CMSIS:RTOS2:Keil RTX5:     Library
+   - Configured for on-chip Flash 
+
+ - Debug RAM:
+   - Compiler:                  ARM Compiler optimization Level 1
+   - Compiler:Event Recorder:   Enabled
+   - CMSIS:RTOS2:Keil RTX5:     Source
+   - Runs from Internal RAM located on chip
+     (may be used for target debugging)
