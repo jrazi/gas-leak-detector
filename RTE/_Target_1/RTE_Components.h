@@ -38,6 +38,8 @@
         #define RTE_Drivers_USART3              /* Driver USART3 */
 /* Keil::CMSIS Driver:WiFi:ESP8266:UART:1.4.0 */
 #define RTE_Drivers_WiFi_ESP8266_UART   /* Driver WiFi ESP8266 (UART) */
+/* Keil::Data Exchange:JSON:Jansson:2.7.0 */
+#define JANSSON
 /* Keil::Device:Startup:1.0.0 */
 #define RTE_DEVICE_STARTUP_LPC17XX      /* Device Startup for NXP17XX */
 /* MDK-Packs::IoT Utility:http-parser:2.9.2 */
