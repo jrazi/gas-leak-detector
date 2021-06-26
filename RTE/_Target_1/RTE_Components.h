@@ -24,13 +24,17 @@
 /* Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0 */
 #define RTE_Compiler_EventRecorder
           #define RTE_Compiler_EventRecorder_DAP
-/* Keil.MDK-Plus::Network:CORE:IPv4 Release:7.14.0 */
+/* Keil.MDK-Pro::Network:CORE:IPv4 Release:7.14.0 */
 #define RTE_Network_Core                /* Network Core */
           #define RTE_Network_IPv4                /* Network IPv4 Stack */
           #define RTE_Network_Release             /* Network Release Version */
-/* Keil.MDK-Plus::Network:Interface:WiFi:7.14.0 */
+/* Keil.MDK-Pro::Network:Interface:WiFi:7.14.0 */
 #define RTE_Network_Interface_WiFi_0    /* Network Interface WiFi 0 */
 
+/* Keil.MDK-Pro::Network:Socket:TCP:7.14.0 */
+#define RTE_Network_Socket_TCP          /* Network Socket TCP */
+/* Keil.MDK-Pro::Network:Socket:UDP:7.14.0 */
+#define RTE_Network_Socket_UDP          /* Network Socket UDP */
 /* Keil::CMSIS Driver:USART:2.10.0 */
 #define RTE_Drivers_USART0              /* Driver USART0 */
         #define RTE_Drivers_USART1              /* Driver USART1 */
