@@ -1,0 +1,294 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: �Vision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Omid Fatemi, University of Tehran, LIC=9WSKC-7FFJ7-CX2U6-D8G4A-BGK90-R47N2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\group6\Desktop\ESP8266-11\esp8266\esp8266.uvprojx
+Project File Date:  06/25/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(1): warning: non-portable path to file '<LPC17xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <lpc17XX.h>
+         ^~~~~~~~~~~
+         <LPC17xx.h>
+main.c(1): warning: In file included from...
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(200): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(204): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(198): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(214): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(218): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(212): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(227): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(231): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(225): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(240): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(244): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(238): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(253): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(257): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(339): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(345): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(349): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(370): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(376): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(380): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(829): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(839): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17XX.h(843): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+main.c(3): warning: In file included from...
+../00-libfiles\uart.h(44): warning: non-portable path to file '<LPC17xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <lpc17xx.h>
+         ^~~~~~~~~~~
+         <LPC17xx.h>
+../00-libfiles\uart.h(209): warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define UART0_Printf(var_arg_list...) UART_Printf(C_UartZero_U8,  var_arg_list)
+                                 ^
+../00-libfiles\uart.h(210): warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define UART1_Printf(var_arg_list...) UART_Printf(C_UartOne_U8,   var_arg_list)
+                                 ^
+../00-libfiles\uart.h(211): warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define UART2_Printf(var_arg_list...) UART_Printf(C_UartTwo_U8,   var_arg_list)
+                                 ^
+../00-libfiles\uart.h(212): warning: named variadic macros are a GNU extension [-Wvariadic-macros]
+#define UART3_Printf(var_arg_list...) UART_Printf(C_UartThree_U8, var_arg_list)
+                                 ^
+main.c(7): warning: no previous extern declaration for non-static variable 'CounterWiFi' [-Wmissing-variable-declarations]
+int CounterWiFi=0;
+    ^
+main.c(7): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int CounterWiFi=0;
+^
+main.c(19): warning: no previous prototype for function 'delay' [-Wmissing-prototypes]
+void delay ()  // ???? ????
+     ^
+main.c(19): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void delay ()  // ???? ????
+^
+static 
+main.c(1): warning: In file included from...
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17xx.h(368): warning: padding size of 'LPC_UART1_TypeDef' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+main.c(24): warning: no previous prototype for function 'getchar0' [-Wmissing-prototypes]
+unsigned char getchar0 (void)  // ?????? ??????? ?? ?????0
+              ^
+main.c(24): note: declare 'static' if the function is not intended to be used outside of this translation unit
+unsigned char getchar0 (void)  // ?????? ??????? ?? ?????0
+^
+static 
+main.c(1): warning: In file included from...
+C:/Keil_v5/Packs/Keil/LPC1700_DFP/2.6.0/Device/Include\lpc17xx.h(337): warning: padding size of 'LPC_UART_TypeDef' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+main.c(30): warning: no previous prototype for function 'getchar2' [-Wmissing-prototypes]
+unsigned char getchar2 (void)  // ?????? ??????? ?? ?????2
+              ^
+main.c(30): note: declare 'static' if the function is not intended to be used outside of this translation unit
+unsigned char getchar2 (void)  // ?????? ??????? ?? ?????2
+^
+static 
+main.c(37): warning: no previous prototype for function 'sendchar0' [-Wmissing-prototypes]
+void sendchar0 (unsigned char ch) // ????? ?????? ?? ????? 0
+     ^
+main.c(37): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void sendchar0 (unsigned char ch) // ????? ?????? ?? ????? 0
+^
+static 
+main.c(44): warning: no previous prototype for function 'sendchar2' [-Wmissing-prototypes]
+void sendchar2 (unsigned char ch) // ????? ?????? ?? ????? 2
+     ^
+main.c(44): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void sendchar2 (unsigned char ch) // ????? ?????? ?? ????? 2
+^
+static 
+main.c(51): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+                   ^
+main.c(51): warning: declaration shadows a variable in the global scope [-Wshadow]
+main.c(9): note: previous declaration is here
+char str[2000]; 
+     ^
+main.c(54): warning: implicit conversion loses integer precision: 'int' to 'unsigned char' [-Wimplicit-int-conversion]
+        sendchar0(str[i]);
+        ~~~~~~~~~ ^~~~~~
+main.c(51): warning: no previous prototype for function 'sendstring0' [-Wmissing-prototypes]
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+     ^
+main.c(51): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+^
+static 
+main.c(58): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+void sendstring2 (*str)   // ????? ???? ?? ????? 2
+                   ^
+main.c(58): warning: declaration shadows a variable in the global scope [-Wshadow]
+main.c(9): note: previous declaration is here
+char str[2000]; 
+     ^
+main.c(61): warning: implicit conversion loses integer precision: 'int' to 'unsigned char' [-Wimplicit-int-conversion]
+        sendchar2 (str[i]);
+        ~~~~~~~~~  ^~~~~~
+main.c(58): warning: no previous prototype for function 'sendstring2' [-Wmissing-prototypes]
+void sendstring2 (*str)   // ????? ???? ?? ????? 2
+     ^
+main.c(58): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void sendstring2 (*str)   // ????? ???? ?? ????? 2
+^
+static 
+main.c(71): warning: no previous prototype for function 'UART2_IRQHandler' [-Wmissing-prototypes]
+void UART2_IRQHandler (void) // تابع مروبط به وقفه UART0
+     ^
+main.c(71): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void UART2_IRQHandler (void) // تابع مروبط به وقفه UART0
+^
+static 
+main.c(120): warning: incompatible pointer types passing 'char [2000]' to parameter of type 'int *' [-Wincompatible-pointer-types]
+        sendstring0(str);
+                    ^~~
+main.c(51): note: passing argument to parameter 'str' here
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+                   ^
+main.c(124): warning: incompatible pointer types passing 'char [2000]' to parameter of type 'int *' [-Wincompatible-pointer-types]
+        sendstring0(str);
+                    ^~~
+main.c(51): note: passing argument to parameter 'str' here
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+                   ^
+main.c(128): warning: incompatible pointer types passing 'char [2000]' to parameter of type 'int *' [-Wincompatible-pointer-types]
+        sendstring0(str);
+                    ^~~
+main.c(51): note: passing argument to parameter 'str' here
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+                   ^
+main.c(132): warning: incompatible pointer types passing 'char [2000]' to parameter of type 'int *' [-Wincompatible-pointer-types]
+        sendstring0(str);
+                    ^~~
+main.c(51): note: passing argument to parameter 'str' here
+void sendstring0 (*str)  // ????? ???? ?? ????? 0
+                   ^
+main.c(143): warning: incompatible pointer types passing 'char [2000]' to parameter of type 'int *' [-Wincompatible-pointer-types]
+        sendstring2(RECstr);
+                    ^~~~~~
+main.c(58): note: passing argument to parameter 'str' here
+void sendstring2 (*str)   // ????? ???? ?? ????? 2
+                   ^
+main.c(9): warning: no previous extern declaration for non-static variable 'str' [-Wmissing-variable-declarations]
+char str[2000]; 
+     ^
+main.c(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char str[2000]; 
+^
+main.c(82): warning: no previous extern declaration for non-static variable 'RECstr' [-Wmissing-variable-declarations]
+ char RECstr[2000]; // Recive String
+      ^
+main.c(82): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+ char RECstr[2000]; // Recive String
+ ^
+54 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=1432 RO-data=236 RW-data=0 ZI-data=4616  
+".\Objects\esp8266.axf" - 0 Error(s), 54 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

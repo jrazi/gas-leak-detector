@@ -1,0 +1,17 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+                       
+Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M3 -o
+.\build\startup_lpc17xx_1.o -I.\RTE\Device\LPC1768 -I.\RTE\_ESP8266-configurati
+on-mbed-LPC1768 -IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Keil
+_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include --predefine="__UVISION_VERSION 
+SETA 531" --predefine="_RTE_ SETA 1" --predefine="LPC175x_6x SETA 1" --predefin
+e="_RTE_ SETA 1" --cpreproc_opts=-D__ASSERT_MSG,-D__MBED_CMSIS_RTOS_CM,-D__CMSI
+S_RTOS,-DARM_MATH_CM3,-D__CORTEX_M3,--target=arm-arm-none-eabi,-mcpu=cortex-m3,
+-D__UVISION_VERSION=531,-D_RTE_,-DLPC175x_6x --list=.\build\startup_lpc17xx.lst
+ RTE\Device\LPC1768\startup_LPC17xx.s
+333 symbols in table
