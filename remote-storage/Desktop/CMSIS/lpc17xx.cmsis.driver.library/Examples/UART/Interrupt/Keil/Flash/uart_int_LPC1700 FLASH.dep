@@ -1,0 +1,53 @@
+Dependencies for Project 'uart_int', Target 'LPC1700 FLASH': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\startup\arm\startup_LPC17xx.s)(0x4DD1B598)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (..\..\..\..\Core\CM3\CoreSupport\core_cm3.c)(0x4DD1B598)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+F (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.c)(0x4E39DCE5)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h)(0x4E39DCE5)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cm3.h)(0x4E39DCE4)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmInstr.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmFunc.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x4DD1B598)
+F (..\..\..\..\Drivers\source\lpc17xx_clkpwr.c)(0x4E01208D)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\lpc17xx_clkpwr.o --omf_browse .\flash\lpc17xx_clkpwr.crf --depend .\flash\lpc17xx_clkpwr.d)
+I (..\..\..\..\Drivers\include\lpc17xx_clkpwr.h)(0x4E39DCE7)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\lpc17xx.h)(0x4E39DCE5)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cm3.h)(0x4E39DCE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmInstr.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmFunc.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x4DD1B598)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x4E01208E)
+F (..\..\..\..\Drivers\source\lpc17xx_pinsel.c)(0x4E01208C)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\lpc17xx_pinsel.o --omf_browse .\flash\lpc17xx_pinsel.crf --depend .\flash\lpc17xx_pinsel.d)
+I (..\..\..\..\Drivers\include\lpc17xx_pinsel.h)(0x4E39DCE7)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\lpc17xx.h)(0x4E39DCE5)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cm3.h)(0x4E39DCE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmInstr.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmFunc.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x4DD1B598)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x4E01208E)
+F (..\..\..\..\Drivers\source\lpc17xx_uart.c)(0x4E39DCE5)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\lpc17xx_uart.o --omf_browse .\flash\lpc17xx_uart.crf --depend .\flash\lpc17xx_uart.d)
+I (..\..\..\..\Drivers\include\lpc17xx_uart.h)(0x4E39DCE7)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h)(0x4E39DCE5)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cm3.h)(0x4E39DCE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmInstr.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmFunc.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x4DD1B598)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x4E01208E)
+I (..\..\..\..\Drivers\include\lpc17xx_clkpwr.h)(0x4E39DCE7)
+I (..\..\Interrupt\lpc17xx_libcfg.h)(0x4E0120D3)
+F (..\uart_interrupt_test.c)(0x4E0120D3)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I ..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Core\CM3\CoreSupport -I ..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I ..\..\..\..\Drivers\include -I ..\..\Interrupt-I.\RTE\_LPC1700_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__BUILD_WITH_EXAMPLE__="1" -D__RAM_MODE__="0"-o .\flash\uart_interrupt_test.o --omf_browse .\flash\uart_interrupt_test.crf --depend .\flash\uart_interrupt_test.d)
+I (..\..\..\..\Drivers\include\lpc17xx_uart.h)(0x4E39DCE7)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h)(0x4E39DCE5)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cm3.h)(0x4E39DCE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC848EC)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmInstr.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\CoreSupport\core_cmFunc.h)(0x4DD1B598)
+I (..\..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x4DD1B598)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x4E01208E)
+I (..\lpc17xx_libcfg.h)(0x4E0120D3)
+I (..\..\..\..\Drivers\include\lpc17xx_pinsel.h)(0x4E39DCE7)
+F (..\abstract.txt)(0x4E0120D3)()

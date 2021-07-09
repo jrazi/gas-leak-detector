@@ -1,0 +1,27 @@
+The 'Demo' project is a demonstration program for the
+LPC1768 microcontroller using Keil 'MCB1700' Evaluation Board,
+compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL =   12.00 MHz
+   - CPU  =  100.00 MHz
+
+ - Sys Timer is used in interrupt mode
+
+Display screens:
+   - 12-bit AD converter value bargraph depending on potentiometer position
+   - Joystick directions
+   - State of buttons
+
+The Demo program is available in different targets:
+
+ - Debug:
+   - Compiler:                  ARM Compiler optimization Level 1
+   - Compiler:Event Recorder:   Enabled
+   - CMSIS:RTOS2:Keil RTX5:     Source
+
+ - Release:
+   - Compiler:                  ARM Compiler optimization Level 3
+   - Compiler:Event Recorder:   Disabled
+   - CMSIS:RTOS2:Keil RTX5:     Library

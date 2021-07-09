@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\uart.o"
+".\objects\gpio.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx_1.o"
+--strict --scatter ".\Objects\esp8266withlib.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\esp8266withlib.map" -o .\Objects\esp8266withlib.axf

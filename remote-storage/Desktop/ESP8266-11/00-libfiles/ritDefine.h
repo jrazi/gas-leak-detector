@@ -1,0 +1,20 @@
+#ifndef _UART023DEFINE_H_
+#define _UART023DEFINE_H_
+
+
+
+// LPC_RIT->RICOMPVAL
+
+// LPC_RIT->RIMASK
+
+// LPC_RIT->RICTRL
+#define _RICTRL_RITINT 		0
+#define _RICTRL_RITENCLR 	1
+#define _RICTRL_RITENBR 	2
+#define _RICTRL_RITEN 		3
+
+// LPC_RIT->RICOUNTER
+
+
+
+#endif
