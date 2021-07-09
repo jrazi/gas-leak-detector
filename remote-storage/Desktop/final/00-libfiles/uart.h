@@ -86,16 +86,17 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 //#define SBIT_uart  0
 
 //typedef void (*uartFunPtr)(void);
+typedef void (*uartFunPtr)(void);
 
 typedef struct
 { 
-	//uartFunPtr userFunction;
+	uartFunPtr userFunction;
+	IRQn_Type IrqNumber;
   gpioPins_et TxPin;
   gpioPins_et RxPin;
   uint8_t PinFunSel;
   uint8_t pconBit;
   LPC_UART_TypeDef *UARTx;
-	//IRQn_Type IrqNumber;
 }uartChannelConfig_st;
 
 #define C_UartZero_U8    0u
@@ -158,6 +159,13 @@ void UART_TxFloatNumber(uint8_t var_uartChannel_u8, float var_floatNumber_f32);
 void UART_Printf(uint8_t var_uartChannel_u8, const char *argList, ...);
 /**************************************************************************************************/
 
+/*********************** Interrupt Related Functions (Not in the original library) ********************/
+
+void UART_AttachInterrupt(uint8_t var_uartChannel_u8,uartFunPtr funPtr);
+
+#define UART0_AttachInterrupt(ptr) UART_AttachInterrupt(C_UartZero_U8,  ptr)
+
+/************************************************/
 
 
 

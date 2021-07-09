@@ -181,6 +181,19 @@ void  myTimerIsr_1(void)
 	
 }
 
+void wifi_receive_handler(void) {
+			char received;
+			UART2_Printf("going to receive data \n\r");
+
+			received = UART0_RxChar();
+			UART2_Printf("done recciving \n\r");
+
+			if (received != NULL)
+				UART2_Printf("Rx Value:%s \n\r", received);     // Send the value on UART
+			else 
+				UART2_Printf("No received data \n\r");
+}
+
 int main() 
 {
 	//***********************Initialization********************************////////
@@ -190,7 +203,10 @@ int main()
     TIMER_Init(1,500000);                  /* Configure timer1 to generate 500ms(500000us) delay*/
 	  ADC_Init();                               /* Initialize the ADC module */
 	  UART2_Init(115200);                          /* Initialize UART at 9600 baud rate */
-	  UART0_Init(115200); 
+	  UART0_Init(115200);
+
+    UART0_AttachInterrupt(wifi_receive_handler);
+	
 	
 	//*******************************END******************************************/////
 	
@@ -205,6 +221,15 @@ int main()
 	GPIO_PinDirection(P2_6,OUTPUT);
 	GPIO_PinDirection(P2_7,OUTPUT);
 	
+	GPIO_PinDirection(P0_15,INPUT);
+	GPIO_PinDirection(P0_16,OUTPUT);
+	GPIO_PinDirection(P0_17,OUTPUT);
+	GPIO_PinDirection(P0_18,OUTPUT);
+
+	GPIO_PinWrite(P0_16, 1);
+	GPIO_PinWrite(P0_17, 1);
+	GPIO_PinWrite(P0_18, 1);
+
 	//********************************END**************************************************///////////
 	
 	//*********************Config ESP8266************************************/////////
@@ -213,9 +238,9 @@ int main()
 	UART0_TxString(str);
 	DELAY_ms(100);
 	
-	sprintf (str,"AT+CIPMUX=1%c%c",0x0d,0x0a);
-	UART0_TxString(str);
-	DELAY_ms(100);
+	//sprintf (str,"AT+CIPMUX=1%c%c",0x0d,0x0a);
+	//UART0_TxString(str);
+	//DELAY_ms(100);
 
 	sprintf (str,"AT+CWJAP=MPLab,MpProject1400%c%c",0x0d,0x0a);
 	UART0_TxString(str);
@@ -227,16 +252,15 @@ int main()
 
     TIMER_AttachInterrupt(0,myTimerIsr_0);       /* myTimerIsr_0 will be called by TIMER0_IRQn */
     TIMER_AttachInterrupt(2,myTimerIsr_1);       /* myTimerIsr_1 will be called by TIMER1_IRQn */
-
-      TIMER_Start(0);                            /* Start the Timers */
-      TIMER_Start(1);
+		
+		
+		TIMER_Start(0);                            /* Start the Timers */
+		TIMER_Start(1);
 
 //*****************************END*************************************************///////// 
 
     while(1)
     {
-
-			
     }
     
 

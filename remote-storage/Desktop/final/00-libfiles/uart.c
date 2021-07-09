@@ -49,10 +49,10 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 
  uartChannelConfig_st UartConfig[C_MaxUartChannels_U8]=
 {  /*userFunPtr      TxPin RxPin UART_PinFun   PCON Bit Associated UART Structure      IRQ Number   */
-    {  P0_2, P0_3, PINSEL_FUNC_1,  3     ,(LPC_UART_TypeDef *)LPC_UART0_BASE}, /* Configure P0_2,P0_3 for UART0 function */
-    {  P2_0, P2_1, PINSEL_FUNC_2,  4     ,(LPC_UART_TypeDef *)LPC_UART1_BASE}, /* Configure P2_0,P2_1 for UART1 function */
-    {  P0_10,P0_11,PINSEL_FUNC_1,  24    ,(LPC_UART_TypeDef *)LPC_UART2_BASE}, /* Configure P0_10,P0_11 for UART2 function */
-    {  P0_0, P0_1, PINSEL_FUNC_2,  25    ,(LPC_UART_TypeDef *)LPC_UART3_BASE}  /* Configure P0_0,P0_1 for UART3 function */ 
+    {  NULL, UART0_IRQn, P0_2, P0_3, PINSEL_FUNC_1,  3     ,(LPC_UART_TypeDef *)LPC_UART0_BASE}, /* Configure P0_2,P0_3 for UART0 function */
+    {  NULL, UART1_IRQn, P2_0, P2_1, PINSEL_FUNC_2,  4     ,(LPC_UART_TypeDef *)LPC_UART1_BASE}, /* Configure P2_0,P2_1 for UART1 function */
+    {  NULL, UART2_IRQn, P0_10,P0_11,PINSEL_FUNC_1,  24    ,(LPC_UART_TypeDef *)LPC_UART2_BASE}, /* Configure P0_10,P0_11 for UART2 function */
+    {  NULL, UART3_IRQn, P0_0, P0_1, PINSEL_FUNC_2,  25    ,(LPC_UART_TypeDef *)LPC_UART3_BASE}  /* Configure P0_0,P0_1 for UART3 function */ 
 };
 
 
@@ -88,6 +88,20 @@ void UART_Init(uint8_t v_uartChannel_u8, uint32_t v_baudRate_u32)
     }
 }
 
+
+/*********************** Interrupt Related Functions (Not in the original library) ********************/
+
+void UART_AttachInterrupt(uint8_t var_uartChannel_u8,uartFunPtr funPtr)
+{
+    if(var_uartChannel_u8< C_MaxUartChannels_U8)
+    {
+        UartConfig[var_uartChannel_u8].userFunction = funPtr; /* Stop timer by Clearing the Counter Enable*/
+        NVIC_EnableIRQ(UartConfig[var_uartChannel_u8].IrqNumber); 
+    }
+}
+
+
+/************************************************/
 
 
 /*****Hasan defined lib for Intrupt**////////////
