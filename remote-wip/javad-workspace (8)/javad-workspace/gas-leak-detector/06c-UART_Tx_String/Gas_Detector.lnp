@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\adc.o"
+".\gpio.o"
+".\lcd.o"
+".\system_lpc17xx.o"
+".\timer.o"
+".\uart.o"
+".\delay.o"
+".\wifi.o"
+".\utils.o"
+".\parser.o"
+".\gateway.o"
+".\cjson.o"
+".\cjson_utils.o"
+--strict --scatter ".\Gas_Detector.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Gas_Detector.map" -o .\Gas_Detector.axf

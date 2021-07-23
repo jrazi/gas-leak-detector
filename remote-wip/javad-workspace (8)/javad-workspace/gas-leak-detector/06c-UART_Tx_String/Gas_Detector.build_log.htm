@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ju Bc, UB, LIC=Z3C6R-KJR2R-069QU-S6HDD-5SI42-QHYLI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Javad\Desktop\gas-leak-detector\remote-wip\javad-workspace (8)\javad-workspace\gas-leak-detector\06c-UART_Tx_String\06c-UART_Tx_String.uvprojx
+Project File Date:  07/22/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'javad-space'
+compiling store.c...
+store.c(11): error:  #94-D: the size of an array must be greater than zero
+  humidify_record humidify_records[HUMIDITY_STORE_SIZE];
+store.c(12): error:  #94-D: the size of an array must be greater than zero
+  valve_cmd_record valve_cmd_records[VALVE_CMD_STORE_SIZE];
+store.c(54): error:  #20: identifier "size_t" is undefined
+  	size_t buffer_size; 
+store.c(72): error:  #20: identifier "size_t" is undefined
+  	size_t buffer_size; 
+store.c(91): warning:  #68-D: integer conversion resulted in a change of sign
+  		humidity_queue_status.starting_index = -1;
+store.c(92): warning:  #68-D: integer conversion resulted in a change of sign
+  		humidity_queue_status.last_index = -1;
+store.c(95): warning:  #68-D: integer conversion resulted in a change of sign
+  		valve_cmd_queue_status.starting_index = -1;
+store.c(96): warning:  #68-D: integer conversion resulted in a change of sign
+  		valve_cmd_queue_status.last_index = -1;
+store.c(107): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (current_status->starting_index < 0 || current_status->last_index < 0)
+store.c(107): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (current_status->starting_index < 0 || current_status->last_index < 0)
+store.c(122): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (current_status->last_index < 0 || current_status->starting_index < 0)
+store.c(122): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (current_status->last_index < 0 || current_status->starting_index < 0)
+store.c(132): warning:  #940-D: missing return statement at end of non-void function "Get_Queue_Item_Count" 
+  }
+store.c: 9 warnings, 4 errors
+compiling gateway.c...
+compiling wifi.c...
+".\Gas_Detector.axf" - 4 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_javad-space
+  C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

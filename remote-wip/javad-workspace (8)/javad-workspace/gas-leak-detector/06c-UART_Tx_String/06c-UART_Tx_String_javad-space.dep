@@ -1,0 +1,176 @@
+Dependencies for Project '06c-UART_Tx_String', Target 'javad-space': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_LPC17xx.s)(0x60F157DE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\main.c)(0x60F93740)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (.\lib-00\adc.h)(0x59CC6140)
+I (.\lib-00\stdutils.h)(0x59CC6140)
+I (.\lib-00\gpio.h)(0x59CC6140)
+I (.\lib-00\uart.h)(0x60F0B5DE)
+I (.\lib-00\delay.h)(0x59CC6140)
+I (.\lib-00\timer.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E6DFA)
+I (gateway.h)(0x60F93534)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (wifi.h)(0x60F131E0)
+I (parser.h)(0x60F155E6)
+I (utils.h)(0x60F14292)
+F (.\lib-00\adc.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (lib-00\adc.h)(0x59CC6140)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (lib-00\stdutils.h)(0x59CC6140)
+I (lib-00\gpio.h)(0x59CC6140)
+I (lib-00\delay.h)(0x59CC6140)
+F (.\lib-00\gpio.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (lib-00\stdutils.h)(0x59CC6140)
+I (lib-00\gpio.h)(0x59CC6140)
+F (.\lib-00\lcd.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E6DFA)
+I (lib-00\delay.h)(0x59CC6140)
+I (lib-00\lcd.h)(0x59CC6140)
+I (lib-00\stdutils.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (lib-00\gpio.h)(0x59CC6140)
+F (.\lib-00\system_LPC17xx.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+F (.\lib-00\timer.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (lib-00\timer.h)(0x59CC6140)
+I (lib-00\stdutils.h)(0x59CC6140)
+F (.\lib-00\uart.c)(0x60F0B5B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E6DFA)
+I (lib-00\uart.h)(0x60F0B5DE)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (lib-00\stdutils.h)(0x59CC6140)
+I (lib-00\gpio.h)(0x59CC6140)
+F (.\lib-00\delay.c)(0x59CC6140)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (lib-00\delay.h)(0x59CC6140)
+F (.\wifi.c)(0x60F94592)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\wifi.o --omf_browse .\wifi.crf --depend .\wifi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E6DFA)
+I (wifi.h)(0x60F131E0)
+I (.\lib-00\stdutils.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (.\lib-00\uart.h)(0x60F0B5DE)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58490E5A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58490E5A)
+I (.\lib-00\gpio.h)(0x59CC6140)
+I (.\lib-00\delay.h)(0x59CC6140)
+I (utils.h)(0x60F14292)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E6DFA)
+F (.\utils.c)(0x60F938CD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\utils.o --omf_browse .\utils.crf --depend .\utils.d)
+I (utils.h)(0x60F14292)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+F (.\parser.c)(0x60F1570C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\parser.o --omf_browse .\parser.crf --depend .\parser.d)
+I (parser.h)(0x60F155E6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (utils.h)(0x60F14292)
+I (.\lib-00\stdutils.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E6DFA)
+I (.\lib-00\cJSON.h)(0x60F154F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E6DFA)
+F (.\gateway.c)(0x60F93930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\gateway.o --omf_browse .\gateway.crf --depend .\gateway.d)
+I (gateway.h)(0x60F93534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (wifi.h)(0x60F131E0)
+I (parser.h)(0x60F155E6)
+I (utils.h)(0x60F14292)
+I (.\lib-00\stdutils.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+F (.\lib-00\cJSON.c)(0x60F14DE4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\cjson.o --omf_browse .\cjson.crf --depend .\cjson.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5E8E6DFA)
+I (lib-00\cJSON.h)(0x60F154F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E6DFA)
+F (.\lib-00\cJSON_Utils.c)(0x60F14DFE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\cjson_utils.o --omf_browse .\cjson_utils.crf --depend .\cjson_utils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E6DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5E8E6DFA)
+I (lib-00\cJSON_Utils.h)(0x60F14E18)
+I (lib-00\cJSON.h)(0x60F154F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E6DFA)
+F (.\store.c)(0x60F95657)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\lib-00-I.\RTE\_javad-space-IC:\Users\Javad\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Javad\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\store.o --omf_browse .\store.crf --depend .\store.d)
+I (store.h)(0x60F9528F)
+I (.\lib-00\stdutils.h)(0x59CC6140)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E6DFA)
+F (.\lib-00\cJSON.h)(0x60F154F2)()
+F (.\lib-00\cJSON_Utils.h)(0x60F14E18)()
+F (.\gateway.h)(0x60F93534)()
+F (.\parser.h)(0x60F155E6)()
+F (.\utils.h)(0x60F14292)()
+F (.\lib-00\adc.h)(0x59CC6140)()
+F (.\lib-00\gpio.h)(0x59CC6140)()
+F (.\lib-00\lcd.h)(0x59CC6140)()
+F (.\lib-00\stdutils.h)(0x59CC6140)()
+F (.\lib-00\timer.h)(0x59CC6140)()
+F (.\lib-00\uart.h)(0x60F0B5DE)()
+F (.\lib-00\delay.h)(0x59CC6140)()
+F (.\wifi.h)(0x60F131E0)()
+F (.\store.h)(0x60F9528F)()
